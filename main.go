@@ -2,7 +2,7 @@ package main
 
 import (
     "fmt"
-    "golang-02-homework/utils"
+    "github.com/renmcc/golang-02-homework/utils"
 )
 
 func main() {
