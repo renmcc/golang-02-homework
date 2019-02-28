@@ -1,10 +1,14 @@
 package main
 
-import "fmt"
+import (
+    "fmt"
+    "golang-02-homework/utils"
+)
 
 func main() {
 	fmt.Println("hello, world")
-	fmt.Printf("%sabc%s", "hello","world")
+	hello.Printhello()
 }
+
 
 
