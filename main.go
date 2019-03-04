@@ -7,7 +7,7 @@ import (
 
 func main() {
 	fmt.Println("hello, world")
-	hello.Printhello()
+	utils.Printhello()
 }
 
 
