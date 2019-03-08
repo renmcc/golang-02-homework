@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="002996a3-fee4-4783-af79-58b59f4eaae2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/canshu.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hanshu.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,20 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/http-hello.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/time-server.go">
+        <entry file="file://$PROJECT_DIR$/canshu.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="281">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -48,10 +41,14 @@
       <list>
         <option value="$PROJECT_DIR$/http-hello.go" />
         <option value="$PROJECT_DIR$/time-server.go" />
+        <option value="$PROJECT_DIR$/hanshu.go" />
+        <option value="$PROJECT_DIR$/canshu.go" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="489" />
+    <option name="y" value="96" />
     <option name="width" value="1600" />
     <option name="height" value="860" />
   </component>
@@ -100,7 +97,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build time-server.go">
+  <component name="RunManager" selected="Go Build.go build hanshu.go">
+    <configuration name="go build hanshu.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golang-02-homework" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/hanshu.go" />
+      <package value="github.com/renmcc/golang-02-homework" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build http-hello.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golang-02-homework" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -130,6 +136,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build hanshu.go" />
         <item itemvalue="Go Build.go build time-server.go" />
         <item itemvalue="Go Build.go build http-hello.go" />
         <item itemvalue="Go Build.go build main.go" />
@@ -137,7 +144,7 @@
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1600" height="860" extended-state="0" />
+    <frame x="489" y="96" width="1600" height="860" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25584415" />
@@ -176,6 +183,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/time-server.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/http-hello.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -183,10 +197,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/time-server.go">
+    <entry file="file://$PROJECT_DIR$/hanshu.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="66">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canshu.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
