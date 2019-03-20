@@ -3,13 +3,19 @@ package main
 import "fmt"
 
 func main() {
-	var x = map[string] string {
+	//创建并赋值一个字典
+	x := map[string] string {
 		"A": "Apple",
 		"B": "Banana",
 		"O": "Orange",
 	}
 
-	for key , val := range x {
-		fmt.Println("Key:", key, "Value:", val)
+	//删除元素
+	if _, ok := x["B"]; ok {
+		delete(x, "B")
+	}else {
+		fmt.Println("key does not exist")
 	}
+
+	fmt.Println(x)
 }
