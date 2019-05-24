@@ -11,12 +11,26 @@ func main01() {
 	fmt.Printf("%.4f", b)
 }
 
-func main() {
+func main02() {
 	var a int
-	var b,c string
-	fmt.Scan("%3d", &a)
-	fmt.Scan("%s", &b)
-	fmt.Scan("%s", &c)
-	fmt.Println(a,b,c)
+	var b string
+	fmt.Scanf("%3d", &a)
+	fmt.Scanf("%s", &b)
+	fmt.Println(a,b)
+}
 
+func main03() {
+	var name string
+	var password string
+	fmt.Println("请输入账号")
+	fmt.Scanf("%s", &name)
+	fmt.Println("请输入密码")
+	fmt.Scanf("%s", &password)
+	fmt.Println(name, password)
+}
+
+func main() {
+	var a string = "呵呵"
+	var b string = "哈哈"
+	fmt.Println(a+b)
 }
