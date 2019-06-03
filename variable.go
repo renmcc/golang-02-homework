@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"os/exec"
+)
 
 func main01() {
 	a := 5
@@ -29,8 +32,21 @@ func main03() {
 	fmt.Println(name, password)
 }
 
-func main() {
+func main11() {
 	var a string = "呵呵"
 	var b string = "哈哈"
 	fmt.Println(a+b)
+}
+
+
+
+func main() {
+	arg := "curl -I \"www.baidu.com\""
+	cmd := exec.Command("/bin/sh", "-c", arg)
+	out, err := cmd.Output()
+	if err != nil {
+		fmt.Println(err)
+	}
+	fmt.Println(string(out))
+
 }
