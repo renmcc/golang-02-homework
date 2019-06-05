@@ -2,16 +2,16 @@ package main
 
 import "fmt"
 
-func factorial(x uint) uint {
-	if x == 0 {
+func jiecheng(sub int) int {
+	if sub==0{
 		return 1
 	}
-	return x * factorial(x-1)
+	return sub * jiecheng(sub -1)
 }
 
 func main() {
-	var i uint
-	for i = 0; i <= 50; i++ {
-		fmt.Println(factorial(i))
+	for i:=0;i<=7;i++{
+		value := jiecheng(i)
+		fmt.Printf("%d的阶乘是：%d\n", i, value)
 	}
 }
