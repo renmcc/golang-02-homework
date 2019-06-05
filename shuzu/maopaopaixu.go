@@ -1,8 +1,8 @@
-package 数组
+package shuzu
 
 import "fmt"
 
-func main() {
+func maopao() {
 	var arr = [10]int{1,3,5,6,1,2,5,12,32,43}
 
 	//外层控制行
