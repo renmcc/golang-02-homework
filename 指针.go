@@ -73,7 +73,6 @@ func main7777() {
 
 
 //切片指针作为函数参数
-
 func test6(s []int) {
 	s=append(s,6,7,8,9)
 }
@@ -84,7 +83,7 @@ func test7(s *[]int) {
 	*s = append(*s, 6,7,8,9)
 }
 
-func main() {
+func main8888() {
 	s:=[]int{1,2,3,4,5}
 	test6(s)
 	fmt.Println(s)
@@ -94,7 +93,14 @@ func main() {
 
 }
 
+//new创建切片指针
+func main() {
+	var p *[]int
+	fmt.Printf("%p\n", p)
 
+	p = new([]int)
+	fmt.Printf("%p\n",p)
+}
 
 
 
