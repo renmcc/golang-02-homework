@@ -40,7 +40,7 @@ func main44() {
 	fmt.Println(a,b)
 }
 
-//数组指针
+//数组指针（数组的指针）
 func main6668() {
 	var arr [5]int = [5]int{1,2,3,4,5}
 
@@ -94,17 +94,78 @@ func main8888() {
 }
 
 //new创建切片指针
-func main() {
+func main999() {
+	//空指针不能添加元素
 	var p *[]int
 	fmt.Printf("%p\n", p)
 
+
 	p = new([]int)
 	fmt.Printf("%p\n",p)
+	//利用指针添加数据
+	*p=append(*p, 1,2,3,4)
+	fmt.Println(*p)
 }
 
 
+//指针数组（数组里存的元素是指针）
+func main00011() {
+	//元素为指针
+	var arr [2] *int
+	a,b := 10,20
+	arr[0] = &a
+	arr[1] = &b
+
+	//获取第一个元素值
+	fmt.Println(*arr[0])
+
+}
+
+//指针切片
+func main55555() {
+	var slice [] *int
+	a,b,c := 10,20,30
+	slice = append(slice, &a,&b,&c)
+	d := 11
+	slice[0] = &d
+
+	fmt.Println(*slice[0])
+}
+
+//结构体指针
+type student struct {
+	id   int
+	name string
+	age  int
+	sex  string
+}
+
+func main444555() {
+	//定义结构体变量
+	var stu student =student{ 101,"哆啦A梦",100,"男"}
+
+	//定义结构体指针
+	var p *student
+	p = &stu
+	fmt.Println(*p)
+
+	//通过结构体指针修间接改结构体变量
+	(*p).name = "大熊"
+	fmt.Println(*p)
+	//go语言中，可以通过指针直接修改结构体元素
+	p.name = "静香"
+	p.sex = "女"
+	fmt.Println(*p)
+
+}
 
 
+//结构体切片
+func main() {
+	var stu = make([]student, 1)
+	stu = append(stu,student{102,"小猪佩奇",10,"男"})
+	fmt.Printf("%v", stu)
+}
 
 
 
