@@ -161,13 +161,32 @@ func main444555() {
 
 
 //结构体切片
-func main() {
+func main00000() {
 	var stu = make([]student, 1)
 	stu = append(stu,student{102,"小猪佩奇",10,"男"})
-	fmt.Printf("%v", stu)
+	fmt.Printf("%v\n", stu)
+
+	//利用指针在切片首元素添加一个结构体元素
+	p := &stu
+	(*p)[0]=student{103,"野猪佩奇",20,"男"}
+    *p = append(*p, student{104,"花猪佩奇",20,"女"})
+
+	fmt.Printf("%d\n",len(*p))
+	fmt.Println(*p)
 }
 
-
+//多级指针
+func main() {
+	a := 10
+	p := &a
+	pp := &p
+	ppp := &pp
+	//一级指针存储变量的地址，二级指针存储一级指针的地址，三级指针存储二级指针的地址
+	fmt.Printf("%T\n", a)
+	fmt.Printf("%T\n", p)
+	fmt.Printf("%T\n", pp)
+	fmt.Printf("%T\n", ppp)
+}
 
 
 
