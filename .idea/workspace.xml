@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="002996a3-fee4-4783-af79-58b59f4eaae2" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/doc.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/字符串.go" afterDir="false" />
+=======
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/hello.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/golang-02-homework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/golang-02-homework.iml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/crawler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/for.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jisuanqi.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/string_to_int.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/cat.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运算.go" afterDir="false" />
+>>>>>>> c0edc50fc8fc44d88e098ab5ec1e9b473e553c24
+>>>>>>> 8ffb26575c0c1ab6e2f77b98cb7c0e42ac503e57
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/for.go" beforeDir="false" afterPath="$PROJECT_DIR$/for.go" afterDir="false" />
     </list>
@@ -28,6 +42,9 @@
     <select />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+=======
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/for.go">
@@ -39,6 +56,7 @@
         </entry>
       </file>
     </leaf>
+>>>>>>> c0edc50fc8fc44d88e098ab5ec1e9b473e553c24
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -59,6 +77,9 @@
         <option value="$PROJECT_DIR$/hanshu.go" />
         <option value="$PROJECT_DIR$/canshu.go" />
         <option value="$PROJECT_DIR$/cat.go" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/hello.go" />
+=======
         <option value="$PROJECT_DIR$/canshu2.go" />
         <option value="$PROJECT_DIR$/utils/hello.go" />
         <option value="$PROJECT_DIR$/utils/cat.go" />
@@ -71,10 +92,16 @@
         <option value="$PROJECT_DIR$/doc.go" />
         <option value="$PROJECT_DIR$/字符串.go" />
         <option value="$PROJECT_DIR$/for.go" />
+>>>>>>> c0edc50fc8fc44d88e098ab5ec1e9b473e553c24
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
+    <option name="x" value="277" />
+    <option name="y" value="113" />
+=======
+>>>>>>> c0edc50fc8fc44d88e098ab5ec1e9b473e553c24
     <option name="width" value="1600" />
     <option name="height" value="860" />
   </component>
@@ -86,17 +113,31 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 8ffb26575c0c1ab6e2f77b98cb7c0e42ac503e57
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="golang-02-homework" type="b2602c69:ProjectViewProjectNode" />
+<<<<<<< HEAD
               <item name="golang-02-homework" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+>>>>>>> 8ffb26575c0c1ab6e2f77b98cb7c0e42ac503e57
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+=======
+      <pane id="ProjectPane" />
+>>>>>>> c0edc50fc8fc44d88e098ab5ec1e9b473e553c24
+>>>>>>> 8ffb26575c0c1ab6e2f77b98cb7c0e42ac503e57
       <pane id="Scope" />
     </panes>
   </component>
@@ -133,8 +174,17 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
+  <component name="RunManager" selected="Go Build.go build hello.go">
+    <configuration name="go build hanshu.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+=======
   <component name="RunManager" selected="Go Build.go build for.go">
+<<<<<<< HEAD
     <configuration name="go build 字符串.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="go build 运算.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+>>>>>>> c0edc50fc8fc44d88e098ab5ec1e9b473e553c24
+>>>>>>> 8ffb26575c0c1ab6e2f77b98cb7c0e42ac503e57
       <module name="golang-02-homework" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
@@ -143,7 +193,20 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
+    <configuration name="go build hello.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golang-02-homework" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/hello.go" />
+      <package value="github.com/renmcc/golang-02-homework" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build http-hello.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+=======
     <configuration name="go build doc.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+>>>>>>> c0edc50fc8fc44d88e098ab5ec1e9b473e553c24
       <module name="golang-02-homework" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
@@ -181,11 +244,24 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
+        <item itemvalue="Go Build.go build hello.go" />
+        <item itemvalue="Go Build.go build hanshu.go" />
+        <item itemvalue="Go Build.go build time-server.go" />
+        <item itemvalue="Go Build.go build http-hello.go" />
+        <item itemvalue="Go Build.go build main.go" />
+=======
         <item itemvalue="Go Build.go build for.go" />
         <item itemvalue="Go Build.go build 字符串.go" />
         <item itemvalue="Go Build.go build doc.go" />
         <item itemvalue="Go Build.go build jisuanqi.go" />
         <item itemvalue="Go Build.go build string_to_int.go" />
+<<<<<<< HEAD
+=======
+        <item itemvalue="Go Build.go build 运算.go" />
+        <item itemvalue="Go Build.go build doc.go" />
+>>>>>>> c0edc50fc8fc44d88e098ab5ec1e9b473e553c24
+>>>>>>> 8ffb26575c0c1ab6e2f77b98cb7c0e42ac503e57
       </list>
     </recent_temporary>
   </component>
@@ -199,6 +275,16 @@
     </file-type-list>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
+    <frame x="277" y="113" width="1600" height="860" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15714286" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3287483" />
+=======
     <frame x="0" y="0" width="1600" height="860" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22662337" />
@@ -206,7 +292,12 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32859176" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3314993" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31863442" />
+>>>>>>> c0edc50fc8fc44d88e098ab5ec1e9b473e553c24
+>>>>>>> 8ffb26575c0c1ab6e2f77b98cb7c0e42ac503e57
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991655" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -309,6 +400,33 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://C:/Go/src/builtin/builtin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/fmt/print.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="195" column="21" lean-forward="true" selection-start-line="195" selection-start-column="21" selection-end-line="195" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cat.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+=======
     <entry file="file://$PROJECT_DIR$/cat2.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -362,8 +480,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/for.go">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="176">
           <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+=======
+        <state relative-caret-position="154">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+>>>>>>> c0edc50fc8fc44d88e098ab5ec1e9b473e553c24
+>>>>>>> 8ffb26575c0c1ab6e2f77b98cb7c0e42ac503e57
         </state>
       </provider>
     </entry>
