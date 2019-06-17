@@ -1,12 +1,13 @@
 package main
 
 import (
+	"bufio"
 	"fmt"
 	"io"
 	"os"
 )
 
-func main() {
+func main0008() {
 	//os.Create如果文件不存在创建，如果有会覆盖原文件
 	//fp, err := os.Create("D:/a.txt")
 	//以只读方式打开文件
@@ -51,4 +52,60 @@ func main() {
 	//2、从哪里偏移 io.SeekCurrent 1  SeekEnd 2  SeekStart 0
 	se,_ := fp.Seek(0,io.SeekEnd)
 	fp.WriteAt([]byte("风湿热无热无热无\r\n"),se)
+}
+
+func main0555() {
+	fp, err := os.Open("d:/a.txt")
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+	defer fp.Close()
+
+	//创建一个1024长度的切片，存储文件内容
+	//b := make([]byte, 1024)
+	//fp.Read(b)
+	//fmt.Println(string(b))
+
+	//按行读取
+	//创建切片缓冲区
+	//r := bufio.NewReader(fp)
+	//读取一行
+	//如果在文件截取中没有分隔符，到文件末尾自动停止 EOF -1 文件结束标志
+	//b1,_ := r.ReadBytes('\n')
+	//打印切片中ASCII的值
+	//fmt.Println(b1)
+	//	//fmt.Println(string(b1))
+
+	//循环读取
+	b := make([]byte, 20)
+	for{
+		//读取文件，返回个数和错误信息
+		n,err := fp.Read(b)
+		//io.EOF 表示文件结尾 值为-1
+		if err == io.EOF {
+			break
+		}
+		fmt.Print(string(b[:n]))
+	}
+}
+
+func main() {
+	fp, err := os.Open("d:/a.txt")
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+	defer fp.Close()
+
+	//行读取
+	r := bufio.NewReader(fp)
+
+	for {
+		b,err := r.ReadBytes('\n')
+		if err == io.EOF {
+			break
+		}
+		fmt.Print(string(b))
+	}
 }
