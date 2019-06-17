@@ -30,6 +30,8 @@ func (s *teacher) SayHello() {
 //接口定义了规则，方法实现了规则
 //接口是虚的，方法是实的
 //接口中的方法必须有具体的实现
+//格式 type 接口名 interface{方法列表}
+//方法名(参数列表) (返回值列表)
 type Humaner interface {
 	//函数的声明，没有具体的实现，具体的实现要根据对象不同，实现方式也不同
 	SayHello()
